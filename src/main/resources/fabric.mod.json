@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "ping-overlay",
+	"version": "${version}",
+	"name": "Ping Overlay",
+	"description": "Displays your current ping and FPS on the right from your hotbar",
+	"authors": [
+		"check_fraud"
+	],
+	"contact": {
+	},
+	"license": "MIT License",
+	"icon": "assets/ping-overlay/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"checkfraud.pingoverlay.client.PingoverlayClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
